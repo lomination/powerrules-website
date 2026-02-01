@@ -1,0 +1,26 @@
+:root {
+  --bg: #1e1e1e;
+  --panel: #252526;
+  --sidebar-bg: #1b1b1b;
+  --sidebar-hover: #333;
+  --border: #333;
+  --text: #ddd;
+  --highlight: #007acc;
+  --button-bg: #3a3a3a;
+  --button-hover: #505050;
+  --divider: #444;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}

@@ -18,7 +18,7 @@ jobs:
   build-and-deploy:
 
     runs-on: ubuntu-latest
-    
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -36,7 +36,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npm run build4gh
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
